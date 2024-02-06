@@ -1,0 +1,551 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+100.06      0.03     0.03        1    30.02    30.02  parsing_das_reservations
+  0.00      0.03     0.00   121377     0.00     0.00  get_user_from_catalog
+  0.00      0.03     0.00   104366     0.00     0.00  valida_data
+  0.00      0.03     0.00    81204     0.00     0.00  validar_passengers
+  0.00      0.03     0.00    77037     0.00     0.00  get_flight_from_catalog
+  0.00      0.03     0.00    76716     0.00     0.00  build_reservation
+  0.00      0.03     0.00    76716     0.00     0.00  create_reservation
+  0.00      0.03     0.00    76716     0.00     0.00  set_reservation_address
+  0.00      0.03     0.00    76716     0.00     0.00  set_reservation_begin_date
+  0.00      0.03     0.00    76716     0.00     0.00  set_reservation_city_tax
+  0.00      0.03     0.00    76716     0.00     0.00  set_reservation_end_date
+  0.00      0.03     0.00    76716     0.00     0.00  set_reservation_hotel_id
+  0.00      0.03     0.00    76716     0.00     0.00  set_reservation_hotel_name
+  0.00      0.03     0.00    76716     0.00     0.00  set_reservation_hotel_stars
+  0.00      0.03     0.00    76716     0.00     0.00  set_reservation_id
+  0.00      0.03     0.00    76716     0.00     0.00  set_reservation_includes_breakfast
+  0.00      0.03     0.00    76716     0.00     0.00  set_reservation_price_per_night
+  0.00      0.03     0.00    76716     0.00     0.00  set_reservation_rating
+  0.00      0.03     0.00    76716     0.00     0.00  set_reservation_room_details
+  0.00      0.03     0.00    76716     0.00     0.00  set_reservation_user_id
+  0.00      0.03     0.00    40953     0.00     0.00  validar_reservations
+  0.00      0.03     0.00    38443     0.00     0.00  free_reservation
+  0.00      0.03     0.00    38358     0.00     0.00  add_reservation_to_catalog_by_hotel_id
+  0.00      0.03     0.00    38358     0.00     0.00  add_reservation_to_catalog_by_id
+  0.00      0.03     0.00    38358     0.00     0.00  get_reservation_rating
+  0.00      0.03     0.00    13448     0.00     0.00  valida_hora
+  0.00      0.03     0.00    10001     0.00     0.00  validar_users
+  0.00      0.03     0.00     9913     0.00     0.00  validar_email
+  0.00      0.03     0.00     9464     0.00     0.00  add_user_to_catalog
+  0.00      0.03     0.00     9464     0.00     0.00  build_user
+  0.00      0.03     0.00     9464     0.00     0.00  create_user
+  0.00      0.03     0.00     9464     0.00     0.00  free_users
+  0.00      0.03     0.00     9464     0.00     0.00  set_user_account_creation
+  0.00      0.03     0.00     9464     0.00     0.00  set_user_account_status
+  0.00      0.03     0.00     9464     0.00     0.00  set_user_address
+  0.00      0.03     0.00     9464     0.00     0.00  set_user_birth_date
+  0.00      0.03     0.00     9464     0.00     0.00  set_user_country_code
+  0.00      0.03     0.00     9464     0.00     0.00  set_user_email
+  0.00      0.03     0.00     9464     0.00     0.00  set_user_id
+  0.00      0.03     0.00     9464     0.00     0.00  set_user_name
+  0.00      0.03     0.00     9464     0.00     0.00  set_user_passport
+  0.00      0.03     0.00     9464     0.00     0.00  set_user_pay_method
+  0.00      0.03     0.00     9464     0.00     0.00  set_user_phone_number
+  0.00      0.03     0.00     9464     0.00     0.00  set_user_sex
+  0.00      0.03     0.00     1001     0.00     0.00  possui_delimitadores_consecutivos
+  0.00      0.03     0.00     1001     0.00     0.00  validar_flights
+  0.00      0.03     0.00      983     0.00     0.00  eInteiro
+  0.00      0.03     0.00      950     0.00     0.00  add_flight_to_catalog
+  0.00      0.03     0.00      950     0.00     0.00  build_flight
+  0.00      0.03     0.00      950     0.00     0.00  create_flight
+  0.00      0.03     0.00      950     0.00     0.00  free_flight
+  0.00      0.03     0.00      950     0.00     0.00  set_flight_airline
+  0.00      0.03     0.00      950     0.00     0.00  set_flight_destination
+  0.00      0.03     0.00      950     0.00     0.00  set_flight_id
+  0.00      0.03     0.00      950     0.00     0.00  set_flight_origin
+  0.00      0.03     0.00      950     0.00     0.00  set_flight_plane_model
+  0.00      0.03     0.00      950     0.00     0.00  set_flight_real_arrival_date
+  0.00      0.03     0.00      950     0.00     0.00  set_flight_real_departure_date
+  0.00      0.03     0.00      950     0.00     0.00  set_flight_schedule_arrival_date
+  0.00      0.03     0.00      950     0.00     0.00  set_flight_schedule_departure_date
+  0.00      0.03     0.00      950     0.00     0.00  set_flight_total_seats
+  0.00      0.03     0.00       12     0.00     0.00  get_hotel_ratings_sum_HT
+  0.00      0.03     0.00        6     0.00     0.00  batch_mode_q3
+  0.00      0.03     0.00        6     0.00     0.00  get_hotel_rating_sum
+  0.00      0.03     0.00        6     0.00     0.00  query3
+  0.00      0.03     0.00        1     0.00     0.00  create_flights_catalog
+  0.00      0.03     0.00        1     0.00     0.00  create_reservations_catalog
+  0.00      0.03     0.00        1     0.00     0.00  create_users_catalog
+  0.00      0.03     0.00        1     0.00     0.00  free_flights_catalog
+  0.00      0.03     0.00        1     0.00     0.00  free_reservations_catalog
+  0.00      0.03     0.00        1     0.00     0.00  free_users_catalog
+  0.00      0.03     0.00        1     0.00     0.00  interpreter
+  0.00      0.03     0.00        1     0.00     0.00  parsing_dos_flights
+  0.00      0.03     0.00        1     0.00     0.00  parsing_dos_passengers
+  0.00      0.03     0.00        1     0.00     0.00  parsing_dos_users
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2023 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 33.31% of 0.03 seconds
+
+index % time    self  children    called     name
+                0.03    0.00       1/1           main [2]
+[1]    100.0    0.03    0.00       1         parsing_das_reservations [1]
+                0.00    0.00   40953/40953       validar_reservations [22]
+                0.00    0.00   40340/121377      get_user_from_catalog [3]
+                0.00    0.00   38358/38358       add_reservation_to_catalog_by_hotel_id [24]
+                0.00    0.00   38358/38358       add_reservation_to_catalog_by_id [25]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]    100.0    0.00    0.03                 main [2]
+                0.03    0.00       1/1           parsing_das_reservations [1]
+                0.00    0.00       1/1           create_reservations_catalog [68]
+                0.00    0.00       1/1           create_flights_catalog [67]
+                0.00    0.00       1/1           create_users_catalog [69]
+                0.00    0.00       1/1           parsing_dos_users [76]
+                0.00    0.00       1/1           parsing_dos_flights [74]
+                0.00    0.00       1/1           parsing_dos_passengers [75]
+                0.00    0.00       1/1           interpreter [73]
+                0.00    0.00       1/1           free_users_catalog [72]
+                0.00    0.00       1/1           free_reservations_catalog [71]
+                0.00    0.00       1/1           free_flights_catalog [70]
+-----------------------------------------------
+                0.00    0.00   40340/121377      parsing_das_reservations [1]
+                0.00    0.00   81037/121377      parsing_dos_passengers [75]
+[3]      0.0    0.00    0.00  121377         get_user_from_catalog [3]
+-----------------------------------------------
+                0.00    0.00    3846/104366      validar_flights [47]
+                0.00    0.00   19455/104366      validar_users [28]
+                0.00    0.00   81065/104366      validar_reservations [22]
+[4]      0.0    0.00    0.00  104366         valida_data [4]
+-----------------------------------------------
+                0.00    0.00   81204/81204       parsing_dos_passengers [75]
+[5]      0.0    0.00    0.00   81204         validar_passengers [5]
+-----------------------------------------------
+                0.00    0.00   77037/77037       parsing_dos_passengers [75]
+[6]      0.0    0.00    0.00   77037         get_flight_from_catalog [6]
+-----------------------------------------------
+                0.00    0.00   38358/76716       add_reservation_to_catalog_by_id [25]
+                0.00    0.00   38358/76716       add_reservation_to_catalog_by_hotel_id [24]
+[7]      0.0    0.00    0.00   76716         build_reservation [7]
+                0.00    0.00   76716/76716       create_reservation [8]
+                0.00    0.00   76716/76716       set_reservation_id [16]
+                0.00    0.00   76716/76716       set_reservation_user_id [21]
+                0.00    0.00   76716/76716       set_reservation_hotel_id [13]
+                0.00    0.00   76716/76716       set_reservation_hotel_name [14]
+                0.00    0.00   76716/76716       set_reservation_hotel_stars [15]
+                0.00    0.00   76716/76716       set_reservation_city_tax [11]
+                0.00    0.00   76716/76716       set_reservation_address [9]
+                0.00    0.00   76716/76716       set_reservation_begin_date [10]
+                0.00    0.00   76716/76716       set_reservation_end_date [12]
+                0.00    0.00   76716/76716       set_reservation_price_per_night [18]
+                0.00    0.00   76716/76716       set_reservation_includes_breakfast [17]
+                0.00    0.00   76716/76716       set_reservation_room_details [20]
+                0.00    0.00   76716/76716       set_reservation_rating [19]
+-----------------------------------------------
+                0.00    0.00   76716/76716       build_reservation [7]
+[8]      0.0    0.00    0.00   76716         create_reservation [8]
+-----------------------------------------------
+                0.00    0.00   76716/76716       build_reservation [7]
+[9]      0.0    0.00    0.00   76716         set_reservation_address [9]
+-----------------------------------------------
+                0.00    0.00   76716/76716       build_reservation [7]
+[10]     0.0    0.00    0.00   76716         set_reservation_begin_date [10]
+-----------------------------------------------
+                0.00    0.00   76716/76716       build_reservation [7]
+[11]     0.0    0.00    0.00   76716         set_reservation_city_tax [11]
+-----------------------------------------------
+                0.00    0.00   76716/76716       build_reservation [7]
+[12]     0.0    0.00    0.00   76716         set_reservation_end_date [12]
+-----------------------------------------------
+                0.00    0.00   76716/76716       build_reservation [7]
+[13]     0.0    0.00    0.00   76716         set_reservation_hotel_id [13]
+-----------------------------------------------
+                0.00    0.00   76716/76716       build_reservation [7]
+[14]     0.0    0.00    0.00   76716         set_reservation_hotel_name [14]
+-----------------------------------------------
+                0.00    0.00   76716/76716       build_reservation [7]
+[15]     0.0    0.00    0.00   76716         set_reservation_hotel_stars [15]
+-----------------------------------------------
+                0.00    0.00   76716/76716       build_reservation [7]
+[16]     0.0    0.00    0.00   76716         set_reservation_id [16]
+-----------------------------------------------
+                0.00    0.00   76716/76716       build_reservation [7]
+[17]     0.0    0.00    0.00   76716         set_reservation_includes_breakfast [17]
+-----------------------------------------------
+                0.00    0.00   76716/76716       build_reservation [7]
+[18]     0.0    0.00    0.00   76716         set_reservation_price_per_night [18]
+-----------------------------------------------
+                0.00    0.00   76716/76716       build_reservation [7]
+[19]     0.0    0.00    0.00   76716         set_reservation_rating [19]
+-----------------------------------------------
+                0.00    0.00   76716/76716       build_reservation [7]
+[20]     0.0    0.00    0.00   76716         set_reservation_room_details [20]
+-----------------------------------------------
+                0.00    0.00   76716/76716       build_reservation [7]
+[21]     0.0    0.00    0.00   76716         set_reservation_user_id [21]
+-----------------------------------------------
+                0.00    0.00   40953/40953       parsing_das_reservations [1]
+[22]     0.0    0.00    0.00   40953         validar_reservations [22]
+                0.00    0.00   81065/104366      valida_data [4]
+-----------------------------------------------
+                0.00    0.00   38443/38443       free_reservations_catalog [71]
+[23]     0.0    0.00    0.00   38443         free_reservation [23]
+-----------------------------------------------
+                0.00    0.00   38358/38358       parsing_das_reservations [1]
+[24]     0.0    0.00    0.00   38358         add_reservation_to_catalog_by_hotel_id [24]
+                0.00    0.00   38358/76716       build_reservation [7]
+                0.00    0.00   38358/38358       get_reservation_rating [26]
+-----------------------------------------------
+                0.00    0.00   38358/38358       parsing_das_reservations [1]
+[25]     0.0    0.00    0.00   38358         add_reservation_to_catalog_by_id [25]
+                0.00    0.00   38358/76716       build_reservation [7]
+-----------------------------------------------
+                0.00    0.00   38358/38358       add_reservation_to_catalog_by_hotel_id [24]
+[26]     0.0    0.00    0.00   38358         get_reservation_rating [26]
+-----------------------------------------------
+                0.00    0.00    3841/13448       validar_flights [47]
+                0.00    0.00    9607/13448       validar_users [28]
+[27]     0.0    0.00    0.00   13448         valida_hora [27]
+-----------------------------------------------
+                0.00    0.00   10001/10001       parsing_dos_users [76]
+[28]     0.0    0.00    0.00   10001         validar_users [28]
+                0.00    0.00   19455/104366      valida_data [4]
+                0.00    0.00    9913/9913        validar_email [29]
+                0.00    0.00    9607/13448       valida_hora [27]
+-----------------------------------------------
+                0.00    0.00    9913/9913        validar_users [28]
+[29]     0.0    0.00    0.00    9913         validar_email [29]
+-----------------------------------------------
+                0.00    0.00    9464/9464        parsing_dos_users [76]
+[30]     0.0    0.00    0.00    9464         add_user_to_catalog [30]
+                0.00    0.00    9464/9464        build_user [31]
+-----------------------------------------------
+                0.00    0.00    9464/9464        add_user_to_catalog [30]
+[31]     0.0    0.00    0.00    9464         build_user [31]
+                0.00    0.00    9464/9464        create_user [32]
+                0.00    0.00    9464/9464        set_user_id [40]
+                0.00    0.00    9464/9464        set_user_name [41]
+                0.00    0.00    9464/9464        set_user_email [39]
+                0.00    0.00    9464/9464        set_user_phone_number [44]
+                0.00    0.00    9464/9464        set_user_birth_date [37]
+                0.00    0.00    9464/9464        set_user_sex [45]
+                0.00    0.00    9464/9464        set_user_passport [42]
+                0.00    0.00    9464/9464        set_user_country_code [38]
+                0.00    0.00    9464/9464        set_user_address [36]
+                0.00    0.00    9464/9464        set_user_account_creation [34]
+                0.00    0.00    9464/9464        set_user_pay_method [43]
+                0.00    0.00    9464/9464        set_user_account_status [35]
+-----------------------------------------------
+                0.00    0.00    9464/9464        build_user [31]
+[32]     0.0    0.00    0.00    9464         create_user [32]
+-----------------------------------------------
+                0.00    0.00    9464/9464        free_users_catalog [72]
+[33]     0.0    0.00    0.00    9464         free_users [33]
+-----------------------------------------------
+                0.00    0.00    9464/9464        build_user [31]
+[34]     0.0    0.00    0.00    9464         set_user_account_creation [34]
+-----------------------------------------------
+                0.00    0.00    9464/9464        build_user [31]
+[35]     0.0    0.00    0.00    9464         set_user_account_status [35]
+-----------------------------------------------
+                0.00    0.00    9464/9464        build_user [31]
+[36]     0.0    0.00    0.00    9464         set_user_address [36]
+-----------------------------------------------
+                0.00    0.00    9464/9464        build_user [31]
+[37]     0.0    0.00    0.00    9464         set_user_birth_date [37]
+-----------------------------------------------
+                0.00    0.00    9464/9464        build_user [31]
+[38]     0.0    0.00    0.00    9464         set_user_country_code [38]
+-----------------------------------------------
+                0.00    0.00    9464/9464        build_user [31]
+[39]     0.0    0.00    0.00    9464         set_user_email [39]
+-----------------------------------------------
+                0.00    0.00    9464/9464        build_user [31]
+[40]     0.0    0.00    0.00    9464         set_user_id [40]
+-----------------------------------------------
+                0.00    0.00    9464/9464        build_user [31]
+[41]     0.0    0.00    0.00    9464         set_user_name [41]
+-----------------------------------------------
+                0.00    0.00    9464/9464        build_user [31]
+[42]     0.0    0.00    0.00    9464         set_user_passport [42]
+-----------------------------------------------
+                0.00    0.00    9464/9464        build_user [31]
+[43]     0.0    0.00    0.00    9464         set_user_pay_method [43]
+-----------------------------------------------
+                0.00    0.00    9464/9464        build_user [31]
+[44]     0.0    0.00    0.00    9464         set_user_phone_number [44]
+-----------------------------------------------
+                0.00    0.00    9464/9464        build_user [31]
+[45]     0.0    0.00    0.00    9464         set_user_sex [45]
+-----------------------------------------------
+                0.00    0.00    1001/1001        validar_flights [47]
+[46]     0.0    0.00    0.00    1001         possui_delimitadores_consecutivos [46]
+-----------------------------------------------
+                0.00    0.00    1001/1001        parsing_dos_flights [74]
+[47]     0.0    0.00    0.00    1001         validar_flights [47]
+                0.00    0.00    3846/104366      valida_data [4]
+                0.00    0.00    3841/13448       valida_hora [27]
+                0.00    0.00    1001/1001        possui_delimitadores_consecutivos [46]
+                0.00    0.00     983/983         eInteiro [48]
+-----------------------------------------------
+                0.00    0.00     983/983         validar_flights [47]
+[48]     0.0    0.00    0.00     983         eInteiro [48]
+-----------------------------------------------
+                0.00    0.00     950/950         parsing_dos_flights [74]
+[49]     0.0    0.00    0.00     950         add_flight_to_catalog [49]
+                0.00    0.00     950/950         build_flight [50]
+-----------------------------------------------
+                0.00    0.00     950/950         add_flight_to_catalog [49]
+[50]     0.0    0.00    0.00     950         build_flight [50]
+                0.00    0.00     950/950         create_flight [51]
+                0.00    0.00     950/950         set_flight_id [55]
+                0.00    0.00     950/950         set_flight_airline [53]
+                0.00    0.00     950/950         set_flight_plane_model [57]
+                0.00    0.00     950/950         set_flight_total_seats [62]
+                0.00    0.00     950/950         set_flight_origin [56]
+                0.00    0.00     950/950         set_flight_destination [54]
+                0.00    0.00     950/950         set_flight_schedule_departure_date [61]
+                0.00    0.00     950/950         set_flight_schedule_arrival_date [60]
+                0.00    0.00     950/950         set_flight_real_departure_date [59]
+                0.00    0.00     950/950         set_flight_real_arrival_date [58]
+-----------------------------------------------
+                0.00    0.00     950/950         build_flight [50]
+[51]     0.0    0.00    0.00     950         create_flight [51]
+-----------------------------------------------
+                0.00    0.00     950/950         free_flights_catalog [70]
+[52]     0.0    0.00    0.00     950         free_flight [52]
+-----------------------------------------------
+                0.00    0.00     950/950         build_flight [50]
+[53]     0.0    0.00    0.00     950         set_flight_airline [53]
+-----------------------------------------------
+                0.00    0.00     950/950         build_flight [50]
+[54]     0.0    0.00    0.00     950         set_flight_destination [54]
+-----------------------------------------------
+                0.00    0.00     950/950         build_flight [50]
+[55]     0.0    0.00    0.00     950         set_flight_id [55]
+-----------------------------------------------
+                0.00    0.00     950/950         build_flight [50]
+[56]     0.0    0.00    0.00     950         set_flight_origin [56]
+-----------------------------------------------
+                0.00    0.00     950/950         build_flight [50]
+[57]     0.0    0.00    0.00     950         set_flight_plane_model [57]
+-----------------------------------------------
+                0.00    0.00     950/950         build_flight [50]
+[58]     0.0    0.00    0.00     950         set_flight_real_arrival_date [58]
+-----------------------------------------------
+                0.00    0.00     950/950         build_flight [50]
+[59]     0.0    0.00    0.00     950         set_flight_real_departure_date [59]
+-----------------------------------------------
+                0.00    0.00     950/950         build_flight [50]
+[60]     0.0    0.00    0.00     950         set_flight_schedule_arrival_date [60]
+-----------------------------------------------
+                0.00    0.00     950/950         build_flight [50]
+[61]     0.0    0.00    0.00     950         set_flight_schedule_departure_date [61]
+-----------------------------------------------
+                0.00    0.00     950/950         build_flight [50]
+[62]     0.0    0.00    0.00     950         set_flight_total_seats [62]
+-----------------------------------------------
+                0.00    0.00       6/12          get_hotel_rating_sum [65]
+                0.00    0.00       6/12          query3 [66]
+[63]     0.0    0.00    0.00      12         get_hotel_ratings_sum_HT [63]
+-----------------------------------------------
+                0.00    0.00       6/6           interpreter [73]
+[64]     0.0    0.00    0.00       6         batch_mode_q3 [64]
+-----------------------------------------------
+                0.00    0.00       6/6           query3 [66]
+[65]     0.0    0.00    0.00       6         get_hotel_rating_sum [65]
+                0.00    0.00       6/12          get_hotel_ratings_sum_HT [63]
+-----------------------------------------------
+                0.00    0.00       6/6           interpreter [73]
+[66]     0.0    0.00    0.00       6         query3 [66]
+                0.00    0.00       6/6           get_hotel_rating_sum [65]
+                0.00    0.00       6/12          get_hotel_ratings_sum_HT [63]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[67]     0.0    0.00    0.00       1         create_flights_catalog [67]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[68]     0.0    0.00    0.00       1         create_reservations_catalog [68]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[69]     0.0    0.00    0.00       1         create_users_catalog [69]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[70]     0.0    0.00    0.00       1         free_flights_catalog [70]
+                0.00    0.00     950/950         free_flight [52]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[71]     0.0    0.00    0.00       1         free_reservations_catalog [71]
+                0.00    0.00   38443/38443       free_reservation [23]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[72]     0.0    0.00    0.00       1         free_users_catalog [72]
+                0.00    0.00    9464/9464        free_users [33]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[73]     0.0    0.00    0.00       1         interpreter [73]
+                0.00    0.00       6/6           query3 [66]
+                0.00    0.00       6/6           batch_mode_q3 [64]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[74]     0.0    0.00    0.00       1         parsing_dos_flights [74]
+                0.00    0.00    1001/1001        validar_flights [47]
+                0.00    0.00     950/950         add_flight_to_catalog [49]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[75]     0.0    0.00    0.00       1         parsing_dos_passengers [75]
+                0.00    0.00   81204/81204       validar_passengers [5]
+                0.00    0.00   81037/121377      get_user_from_catalog [3]
+                0.00    0.00   77037/77037       get_flight_from_catalog [6]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[76]     0.0    0.00    0.00       1         parsing_dos_users [76]
+                0.00    0.00   10001/10001       validar_users [28]
+                0.00    0.00    9464/9464        add_user_to_catalog [30]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2023 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [49] add_flight_to_catalog   [3] get_user_from_catalog  [16] set_reservation_id
+  [24] add_reservation_to_catalog_by_hotel_id [73] interpreter [17] set_reservation_includes_breakfast
+  [25] add_reservation_to_catalog_by_id [1] parsing_das_reservations [18] set_reservation_price_per_night
+  [30] add_user_to_catalog    [74] parsing_dos_flights    [19] set_reservation_rating
+  [64] batch_mode_q3          [75] parsing_dos_passengers [20] set_reservation_room_details
+  [50] build_flight           [76] parsing_dos_users      [21] set_reservation_user_id
+   [7] build_reservation      [46] possui_delimitadores_consecutivos [34] set_user_account_creation
+  [31] build_user             [66] query3                 [35] set_user_account_status
+  [51] create_flight          [53] set_flight_airline     [36] set_user_address
+  [67] create_flights_catalog [54] set_flight_destination [37] set_user_birth_date
+   [8] create_reservation     [55] set_flight_id          [38] set_user_country_code
+  [68] create_reservations_catalog [56] set_flight_origin [39] set_user_email
+  [32] create_user            [57] set_flight_plane_model [40] set_user_id
+  [69] create_users_catalog   [58] set_flight_real_arrival_date [41] set_user_name
+  [48] eInteiro               [59] set_flight_real_departure_date [42] set_user_passport
+  [52] free_flight            [60] set_flight_schedule_arrival_date [43] set_user_pay_method
+  [70] free_flights_catalog   [61] set_flight_schedule_departure_date [44] set_user_phone_number
+  [23] free_reservation       [62] set_flight_total_seats [45] set_user_sex
+  [71] free_reservations_catalog [9] set_reservation_address [4] valida_data
+  [33] free_users             [10] set_reservation_begin_date [27] valida_hora
+  [72] free_users_catalog     [11] set_reservation_city_tax [29] validar_email
+   [6] get_flight_from_catalog [12] set_reservation_end_date [47] validar_flights
+  [65] get_hotel_rating_sum   [13] set_reservation_hotel_id [5] validar_passengers
+  [63] get_hotel_ratings_sum_HT [14] set_reservation_hotel_name [22] validar_reservations
+  [26] get_reservation_rating [15] set_reservation_hotel_stars [28] validar_users
